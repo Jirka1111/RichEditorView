@@ -122,7 +122,7 @@ public class RichEditorView: UIView {
     }
     
     private func setup() {
-        self.backgroundColor = UIColor.redColor()
+        self.backgroundColor = UIColor.clearColor()
         
         webView.frame = self.bounds
         webView.delegate = self
