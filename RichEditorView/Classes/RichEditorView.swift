@@ -130,7 +130,7 @@ public class RichEditorView: UIView {
         webView.scalesPageToFit = false
         webView.autoresizingMask = .FlexibleWidth | .FlexibleHeight
         webView.dataDetectorTypes = .None
-        webView.backgroundColor = UIColor.whiteColor()
+        webView.backgroundColor = UIColor.clearColor()
         
         webView.scrollView.scrollEnabled = scrollEnabled
         webView.scrollView.bounces = false
